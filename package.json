@@ -1,0 +1,12 @@
+{
+  "name": "@shiba-web/courses",
+  "private": "true",
+  "scripts": {
+    "dev": "vuepress dev",
+    "build": "vuepress build"
+  },
+  "devDependencies": {
+    "vuepress": "^1.8.2",
+    "vuepress-plugin-redirect": "^1.2.5"
+  }
+}
