@@ -15,27 +15,30 @@ HTML 经历了很多历史版本。上一代 HTML 是 HTML 4.01，发布于 1999
 <!DOCTYPE html>
 ```
 
-> 如果不写 DOCTYPE 声明，浏览器通常会选择按照 HTML 5 的标准解析文档。但为了规范期间，强烈建议不要省略 DOCTYPE 声明。
+::: tip
 
-> HTML 5 的 DOCTYPE 声明是所有 HTML 版本中最简单的，HTML 历史版本的 DOCTYPE 声明相当冗长：
->
-> HTML 4.01 Strict：
->
-> ```html
-> <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-> ```
->
-> HTML 4.01 Transitional
->
-> ```html
-> <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-> ```
->
-> HTML 4.01 Frameset
->
-> ```html
-> <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">
-> ```
+如果不写 DOCTYPE 声明，浏览器通常会选择按照 HTML 5 的标准解析文档。但为了规范期间，强烈建议不要省略 DOCTYPE 声明。
+HTML 5 的 DOCTYPE 声明是所有 HTML 版本中最简单的，HTML 历史版本的 DOCTYPE 声明相当冗长：
+
+HTML 4.01 Strict：
+
+```html
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+```
+
+HTML 4.01 Transitional
+
+```html
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+```
+
+HTML 4.01 Frameset
+
+```html
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">
+```
+
+:::
 
 ## HTML 根元素
 
@@ -57,7 +60,11 @@ HTML 经历了很多历史版本。上一代 HTML 是 HTML 4.01，发布于 1999
 </html>
 ```
 
-> [MDN](https://developer.mozilla.org/zh-CN/) 是由开发了 _火狐浏览器_ 的 _Mozilla_ 组织创建的一个站点，提供了相当权威的 Web 开发文档。通常我们会去 MDN 查找有关元素、属性的信息。
+::: tip
+
+[MDN](https://developer.mozilla.org/zh-CN/) 是由开发了 _火狐浏览器_ 的开源组织 _Mozilla_ 创建的一个站点，提供了相当权威的 Web 开发文档。通常我们会去 MDN 查找有关元素、属性的信息。
+
+:::
 
 ## Head 和 Body
 
@@ -103,7 +110,11 @@ html 根元素中，必须且只能有两个元素：`<head>` 和 `<body>`：
 
 这个 `<meta>` 很难记，一般也不会刻意去记，我们只需要复制粘贴就可以了，在这里仅作为拓展，我们在很长一段时间内都用不到。
 
-> 要解释在移动设备上需要额外配置的原因，需要牵扯到许多概念，我们在这里不展开，有兴趣的可以搜索关键字：“HTML Viewport”了解详情。
+::: tip
+
+要解释在移动设备上需要额外配置的原因，需要牵扯到许多概念，我们在这里不展开，可以搜索关键字：“HTML Viewport” 了解详情。
+
+:::
 
 ### Body
 
