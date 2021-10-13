@@ -11,11 +11,8 @@ module.exports = {
     lastUpdated: "最后更新",
     sidebar: [
       {
-        title: "Day 1",
-        children: [
-          "/day01/getting-started-with-html",
-          "/day01/basic-html-structure",
-        ],
+        title: "HTML",
+        children: ["/html/getting-started", "/html/basic-structure"],
       },
     ],
   },
@@ -23,7 +20,7 @@ module.exports = {
     redirect: {
       redirectors: [
         {
-          alternative: ["/day01/getting-started-with-html"],
+          alternative: ["/html/getting-started"],
         },
       ],
     },
